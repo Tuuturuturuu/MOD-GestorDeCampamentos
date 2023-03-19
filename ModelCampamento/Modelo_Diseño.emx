@@ -4118,7 +4118,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N-BD_cZJEe2GVNry6dMlBw" x="792" y="528"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_N-CSEMZJEe2GVNry6dMlBw" element="_N91dwMZJEe2GVNry6dMlBw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N-CSEcZJEe2GVNry6dMlBw" x="-1" y="1453" height="899"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N-CSEcZJEe2GVNry6dMlBw" x="-1" y="1453" height="582"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_f5xpcMZKEe2GVNry6dMlBw" element="_f5wbUMZKEe2GVNry6dMlBw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_f5xpccZKEe2GVNry6dMlBw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -4162,7 +4162,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N-C5LMZJEe2GVNry6dMlBw" y="476"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N-C5LcZJEe2GVNry6dMlBw" points="[0, 0, 165, 0]$[-165, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N-C5LsZJEe2GVNry6dMlBw" id="327882914:899"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N-C5LsZJEe2GVNry6dMlBw" id="327882914:582"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N-C5L8ZJEe2GVNry6dMlBw" id="-1711398514:0"/>
               </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_gqoeoMZKEe2GVNry6dMlBw" element="_gqYnAMZKEe2GVNry6dMlBw" source="_N-BD98ZJEe2GVNry6dMlBw" target="_f5xpcMZKEe2GVNry6dMlBw" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
