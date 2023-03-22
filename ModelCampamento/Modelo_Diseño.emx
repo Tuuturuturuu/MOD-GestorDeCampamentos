@@ -7025,11 +7025,17 @@
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_52c9Ysg4Ee20Y461DRiqow" type="Freeform" name="Principal">
             <element xsi:nil="true"/>
           </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_OTpd4MiHEe20Y461DRiqow" type="Class" name="VAltaPersonal">
+            <element xsi:nil="true"/>
+          </contents>
         </eAnnotations>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_79ka4Mg4Ee20Y461DRiqow" name="VBajaPersonal">
         <eAnnotations xmi:id="_79ka4cg4Ee20Y461DRiqow" source="uml2.diagrams" references="_79ka4sg4Ee20Y461DRiqow">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_79ka4sg4Ee20Y461DRiqow" type="Freeform" name="Principal">
+            <element xsi:nil="true"/>
+          </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ThFzIMiHEe20Y461DRiqow" type="Class" name="VBajaPersonal">
             <element xsi:nil="true"/>
           </contents>
         </eAnnotations>
@@ -7039,11 +7045,17 @@
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_-GP-osg4Ee20Y461DRiqow" type="Freeform" name="Principal">
             <element xsi:nil="true"/>
           </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_roWHAMiHEe20Y461DRiqow" type="Class" name="VMostrarUno">
+            <element xsi:nil="true"/>
+          </contents>
         </eAnnotations>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_AK9BUMg5Ee20Y461DRiqow" name="VMostrarTodos">
         <eAnnotations xmi:id="_AK9BUcg5Ee20Y461DRiqow" source="uml2.diagrams" references="_AK9BUsg5Ee20Y461DRiqow">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_AK9BUsg5Ee20Y461DRiqow" type="Freeform" name="Principal">
+            <element xsi:nil="true"/>
+          </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_oWNn4MiHEe20Y461DRiqow" type="Class" name="VMostrarTodos">
             <element xsi:nil="true"/>
           </contents>
         </eAnnotations>
@@ -7053,11 +7065,17 @@
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_CQoUYsg5Ee20Y461DRiqow" type="Freeform" name="Principal">
             <element xsi:nil="true"/>
           </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_dPw34MiHEe20Y461DRiqow" type="Class" name="VModificaPersonal">
+            <element xsi:nil="true"/>
+          </contents>
         </eAnnotations>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_GmT7MMg5Ee20Y461DRiqow" name="VMostrarPersonalPorTurno">
         <eAnnotations xmi:id="_GmT7Mcg5Ee20Y461DRiqow" source="uml2.diagrams" references="_GmT7Msg5Ee20Y461DRiqow">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GmT7Msg5Ee20Y461DRiqow" type="Freeform" name="Principal">
+            <element xsi:nil="true"/>
+          </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_lp39cMiHEe20Y461DRiqow" type="Class" name="VMostrarPersonalPorTurno">
             <element xsi:nil="true"/>
           </contents>
         </eAnnotations>
@@ -7120,6 +7138,74 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_mQ_u0Mg6Ee20Y461DRiqow" name="IGUI">
         <ownedOperation xmi:id="_mQ_u0cg6Ee20Y461DRiqow" name="actualizar"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_y8zMEMiHEe20Y461DRiqow" name="ControladorPersonal">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_19DRAMiHEe20Y461DRiqow" name="AltaPersonal">
+          <eAnnotations xmi:id="_19DRAciHEe20Y461DRiqow" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_19DRAsiHEe20Y461DRiqow" type="Sequence" element="_19DRAMiHEe20Y461DRiqow" name="AltaPersonal" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_19DRA8iHEe20Y461DRiqow" element="_19DRAMiHEe20Y461DRiqow" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_19DRBMiHEe20Y461DRiqow" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_19DRBciHEe20Y461DRiqow" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_19DRBsiHEe20Y461DRiqow" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_C1ne4MiIEe20Y461DRiqow" name="BajaPersonal">
+          <eAnnotations xmi:id="_C1ne4ciIEe20Y461DRiqow" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_C1ne4siIEe20Y461DRiqow" type="Sequence" element="_C1ne4MiIEe20Y461DRiqow" name="BajaPersonal" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_C1ne48iIEe20Y461DRiqow" element="_C1ne4MiIEe20Y461DRiqow" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_C1ne5MiIEe20Y461DRiqow" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_C1ne5ciIEe20Y461DRiqow" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C1ne5siIEe20Y461DRiqow" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_NCb4MMiIEe20Y461DRiqow" name="ModificarPersonal">
+          <eAnnotations xmi:id="_NCgwsMiIEe20Y461DRiqow" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_NCgwsciIEe20Y461DRiqow" type="Sequence" element="_NCb4MMiIEe20Y461DRiqow" name="ModificarPersonal" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_NCgwssiIEe20Y461DRiqow" element="_NCb4MMiIEe20Y461DRiqow" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_NCgws8iIEe20Y461DRiqow" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_NCgwtMiIEe20Y461DRiqow" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NCgwtciIEe20Y461DRiqow" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_lUyBwMiIEe20Y461DRiqow" name="MostrarUno">
+          <eAnnotations xmi:id="_lUyBwciIEe20Y461DRiqow" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_lUyBwsiIEe20Y461DRiqow" type="Sequence" element="_lUyBwMiIEe20Y461DRiqow" name="MostrarUno" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_lUyBw8iIEe20Y461DRiqow" element="_lUyBwMiIEe20Y461DRiqow" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_lUyBxMiIEe20Y461DRiqow" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_lUyBxciIEe20Y461DRiqow" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUyBxsiIEe20Y461DRiqow" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_rNLYgMiIEe20Y461DRiqow" name="MostrarTodos">
+          <eAnnotations xmi:id="_rNLYgciIEe20Y461DRiqow" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_rNLYgsiIEe20Y461DRiqow" type="Sequence" element="_rNLYgMiIEe20Y461DRiqow" name="MostrarTodos" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_rNLYg8iIEe20Y461DRiqow" element="_rNLYgMiIEe20Y461DRiqow" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_rNLYhMiIEe20Y461DRiqow" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_rNLYhciIEe20Y461DRiqow" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rNLYhsiIEe20Y461DRiqow" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_u2_-4MiIEe20Y461DRiqow" name="MostarPersonalPorTurno">
+          <eAnnotations xmi:id="_u2_-4ciIEe20Y461DRiqow" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_u2_-4siIEe20Y461DRiqow" type="Sequence" element="_u2_-4MiIEe20Y461DRiqow" name="MostrarPersonalPorTurno" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_u2_-48iIEe20Y461DRiqow" element="_u2_-4MiIEe20Y461DRiqow" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_u2_-5MiIEe20Y461DRiqow" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_u2_-5ciIEe20Y461DRiqow" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u2_-5siIEe20Y461DRiqow" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
       </packagedElement>
     </packagedElement>
   </packagedElement>
