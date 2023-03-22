@@ -4114,7 +4114,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_NiPInMBDEe24KKI_lMAUIQ" type="FromConstraintCompartment"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_NiPIm8BDEe24KKI_lMAUIQ" y="846"/>
             </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NiN6ccBDEe24KKI_lMAUIQ" points="[-37, -24, 373, 242]$[-408, -266, 2, 0]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NiN6ccBDEe24KKI_lMAUIQ" points="[-1278, 754, 4446, -62]$[-4709, 754, 1015, -62]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_QudM8MBDEe24KKI_lMAUIQ" element="_QuZikMBDEe24KKI_lMAUIQ" source="_yvU8MMBBEe24KKI_lMAUIQ" target="_QuVRIMBDEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_QuebEMBDEe24KKI_lMAUIQ" type="NameLabel">
