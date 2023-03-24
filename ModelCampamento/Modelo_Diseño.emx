@@ -10098,6 +10098,16 @@
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_knCq8MmZEe2Wqtb-xvLQXA" name="SendOperationEvent6" operation="_NFBmkMcyEe2wUNznx59mVQ"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_knDSAMmZEe2Wqtb-xvLQXA" name="ReceiveOperationEvent6" operation="_NFBmkMcyEe2wUNznx59mVQ"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rR_g8MpSEe2F-4wKXyC1kA" name="Factura">
+      <eAnnotations xmi:id="_rSB9MMpSEe2F-4wKXyC1kA" source="uml2.diagrams" references="_rSB9McpSEe2F-4wKXyC1kA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_rSB9McpSEe2F-4wKXyC1kA" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_zd2IEMpSEe2F-4wKXyC1kA" type="Class" name="NFactura">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_o_hZML_4Ee21Fahp4wJOGg" name="Presentacion">
     <eAnnotations xmi:id="_o_inUL_4Ee21Fahp4wJOGg" source="uml2.diagrams" references="_o_inUb_4Ee21Fahp4wJOGg">
