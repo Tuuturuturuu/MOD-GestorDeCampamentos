@@ -11599,7 +11599,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_-RkNoMjDEe2N_IiBp-gLig" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_-RkNocjDEe2N_IiBp-gLig" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
               <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-RYnccjDEe2N_IiBp-gLig" x="8184" y="2376"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-RYnccjDEe2N_IiBp-gLig" x="6864" y="2112"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_E4BkQMjEEe2N_IiBp-gLig" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_E4BkQsjEEe2N_IiBp-gLig" type="ImageCompartment">
