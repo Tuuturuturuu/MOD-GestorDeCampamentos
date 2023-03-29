@@ -4580,6 +4580,15 @@
         <ownedAttribute xmi:id="_cmO0AMcZEe2IOv6llN7KxA" name="Activo" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Boolean%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_69odoMu2Ee2I6flyQo11kA" name="existencias" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_M6HRUMu3Ee2I6flyQo11kA" name="almacen" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_sAQwIM4LEe21NLmfkBHePA" name="idActividad" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
         <ownedOperation xmi:id="_s1mbEMcYEe2IOv6llN7KxA" name="getId">
           <ownedParameter xmi:id="_xOsiQMcYEe2IOv6llN7KxA" name="Parameter1" direction="return">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
@@ -4607,6 +4616,36 @@
         </ownedOperation>
         <ownedOperation xmi:id="_wq2_8McZEe2IOv6llN7KxA" name="setId">
           <ownedParameter xmi:id="_RTRXYMcsEe2IOv6llN7KxA" name="id">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="__kX_QMu2Ee2I6flyQo11kA" name="getExistencias">
+          <ownedParameter xmi:id="_CgDGMMu3Ee2I6flyQo11kA" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_EgSfoMu3Ee2I6flyQo11kA" name="setExistencias">
+          <ownedParameter xmi:id="_GeFpEMu3Ee2I6flyQo11kA" name="existencias">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_VM-fYMu3Ee2I6flyQo11kA" name="getAlmacen">
+          <ownedParameter xmi:id="_W35wIMu3Ee2I6flyQo11kA" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Y3rPgMu3Ee2I6flyQo11kA" name="setAlmacen">
+          <ownedParameter xmi:id="_amKKkMu3Ee2I6flyQo11kA" name="almacen">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_wvZ_0M4LEe21NLmfkBHePA" name="getIDActividad">
+          <ownedParameter xmi:id="_36-1sM4LEe21NLmfkBHePA" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2OoooM4LEe21NLmfkBHePA" name="setIDActividad">
+          <ownedParameter xmi:id="_5dvB4M4LEe21NLmfkBHePA" name="idActividad">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
@@ -5830,7 +5869,7 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_036rRcA_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
           <children xmi:type="notation:ListCompartment" xmi:id="_036rRsA_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
           <children xmi:type="notation:ListCompartment" xmi:id="_036rR8A_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-          <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_036EMcA_Ee24KKI_lMAUIQ" x="14710" y="2497"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_3VdEsMA_Ee24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -5843,7 +5882,7 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_3VdrwsA_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
           <children xmi:type="notation:ListCompartment" xmi:id="_3Vdrw8A_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
           <children xmi:type="notation:ListCompartment" xmi:id="_3VdrxMA_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-          <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3VdEscA_Ee24KKI_lMAUIQ" x="14986" y="4191"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_7h9hYMA_Ee24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -5869,7 +5908,7 @@
           <children xmi:type="notation:ListCompartment" xmi:id="__9_n1cA_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
           <children xmi:type="notation:ListCompartment" xmi:id="__-AO4MA_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
           <children xmi:type="notation:ListCompartment" xmi:id="__-AO4cA_Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-          <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="__9_AwcA_Ee24KKI_lMAUIQ" x="9144" y="9271"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_BqNSAMBAEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -6213,7 +6252,7 @@
             <children xmi:type="notation:ListCompartment" xmi:id="__nLi9cBCEe24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
             <children xmi:type="notation:ListCompartment" xmi:id="__nLi9sBCEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
             <children xmi:type="notation:ListCompartment" xmi:id="__nMKAMBCEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-            <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="__nK74cBCEe24KKI_lMAUIQ" x="5842" y="1016"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_FiwwkMBDEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -6226,7 +6265,7 @@
             <children xmi:type="notation:ListCompartment" xmi:id="_FixXosBDEe24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_FixXo8BDEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_FixXpMBDEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-            <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FiwwkcBDEe24KKI_lMAUIQ" x="8890" y="889"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_ITYeEMBDEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -6252,7 +6291,7 @@
             <children xmi:type="notation:ListCompartment" xmi:id="_NheTkcBDEe24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_NheTksBDEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_NheTk8BDEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-            <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NhdsgcBDEe24KKI_lMAUIQ" x="1397" y="6223"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_QuVRIMBDEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
@@ -6578,7 +6617,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_35mZlb_9Ee2BnswjwVuF6A" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_35nAoL_9Ee2BnswjwVuF6A" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_35nAob_9Ee2BnswjwVuF6A" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_35lygb_9Ee2BnswjwVuF6A" x="3556" y="3937"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_7KFS4L_9Ee2BnswjwVuF6A" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -6591,7 +6630,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_7KF58b_9Ee2BnswjwVuF6A" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_7KF58r_9Ee2BnswjwVuF6A" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_7KF587_9Ee2BnswjwVuF6A" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7KFS4b_9Ee2BnswjwVuF6A" x="3556" y="6350"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_5Z590MBBEe24KKI_lMAUIQ" element="_1DLOIMBBEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -6669,7 +6708,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_Hol0QsTbEe2wE7mArxvCWA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_Hol0Q8TbEe2wE7mArxvCWA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_Hol0RMTbEe2wE7mArxvCWA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HolNMcTbEe2wE7mArxvCWA" x="6604" y="-254"/>
             </children>
             <element xsi:nil="true"/>
@@ -6974,12 +7013,12 @@
         </eAnnotations>
         <packagedElement xmi:type="uml:Class" xmi:id="_IgAnoL_9Ee2BnswjwVuF6A" name="VAltaTurno" clientDependency="_QYJBgL_9Ee2BnswjwVuF6A _iGIGML_9Ee2BnswjwVuF6A _sIRgkL_9Ee2BnswjwVuF6A _5Z9oMMBBEe24KKI_lMAUIQ _mEGKQMBCEe24KKI_lMAUIQ _8hujoMJgEe2fPujF1MSVBg">
           <ownedAttribute xmi:id="_36JMIL_9Ee2BnswjwVuF6A" name="jButton" visibility="private" aggregation="shared" association="_36GI0L_9Ee2BnswjwVuF6A">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_36M2gL_9Ee2BnswjwVuF6A" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_36LoYL_9Ee2BnswjwVuF6A" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_7KfikL_9Ee2BnswjwVuF6A" name="jPanel" visibility="private" aggregation="shared" association="_7Ke7gL_9Ee2BnswjwVuF6A">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7KgJob_9Ee2BnswjwVuF6A" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7KgJoL_9Ee2BnswjwVuF6A" value="1"/>
           </ownedAttribute>
@@ -6998,7 +7037,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2YHyAMTaEe2wE7mArxvCWA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_Hpmg4MTbEe2wE7mArxvCWA" name="jLabel" visibility="private" association="_HplSwMTbEe2wE7mArxvCWA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HpnH8cTbEe2wE7mArxvCWA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HpnH8MTbEe2wE7mArxvCWA"/>
           </ownedAttribute>
@@ -7119,7 +7158,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_47KX4sA3Ee24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_47KX48A3Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_47KX5MA3Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_47JJwcA3Ee24KKI_lMAUIQ" x="2032" y="9906"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_EtRUAMA4Ee24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -7132,7 +7171,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_EtR7E8A4Ee24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_EtR7FMA4Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_EtR7FcA4Ee24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EtRUAcA4Ee24KKI_lMAUIQ" x="1143" y="6604"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_HBWD4MBCEe24KKI_lMAUIQ" element="_1DLOIMBBEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -7413,12 +7452,12 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F9KEAMA3Ee24KKI_lMAUIQ"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_47lOoMA3Ee24KKI_lMAUIQ" name="jButton" visibility="private" aggregation="shared" association="_47knkMA3Ee24KKI_lMAUIQ">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_47l1scA3Ee24KKI_lMAUIQ" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_47l1sMA3Ee24KKI_lMAUIQ"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_EtnSQMA4Ee24KKI_lMAUIQ" name="jPanel" visibility="private" aggregation="shared" association="_EtmrMMA4Ee24KKI_lMAUIQ">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Etn5UcA4Ee24KKI_lMAUIQ" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Etn5UMA4Ee24KKI_lMAUIQ"/>
           </ownedAttribute>
@@ -7541,7 +7580,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_DpiTM8BFEe24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_DpiTNMBFEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_DpiTNcBFEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DphsIcBFEe24KKI_lMAUIQ" x="6350" y="762"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_GMR8wMBFEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -7554,7 +7593,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_GMTK48BFEe24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_GMTK5MBFEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_GMTK5cBFEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GMR8wcBFEe24KKI_lMAUIQ" x="1016" y="8382"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_Q4j5QMBFEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -7580,7 +7619,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_TJQJgsBFEe24KKI_lMAUIQ" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_TJQJg8BFEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_TJQwkMBFEe24KKI_lMAUIQ" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TJPiccBFEe24KKI_lMAUIQ" x="1270" y="2159"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_l3hAEMJhEe2fPujF1MSVBg" element="_6Nl54MHIEe2REPegaZB6NQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -7923,12 +7962,12 @@
         </eAnnotations>
         <packagedElement xmi:type="uml:Class" xmi:id="_rwRYAMBEEe24KKI_lMAUIQ" name="VMostrarTurno" clientDependency="_vhtpUMBEEe24KKI_lMAUIQ _5NCfIMBEEe24KKI_lMAUIQ _7N0EEMBEEe24KKI_lMAUIQ _-LiZcMBEEe24KKI_lMAUIQ _l3o74MJhEe2fPujF1MSVBg">
           <ownedAttribute xmi:id="_Dpt5YMBFEe24KKI_lMAUIQ" name="jPanel" visibility="private" aggregation="shared" association="_DpsrQMBFEe24KKI_lMAUIQ">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dpt5YsBFEe24KKI_lMAUIQ" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dpt5YcBFEe24KKI_lMAUIQ"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_GNBjoMBFEe24KKI_lMAUIQ" name="jLabel" visibility="private" aggregation="shared" association="_GNA8kMBFEe24KKI_lMAUIQ">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GNBjosBFEe24KKI_lMAUIQ" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GNBjocBFEe24KKI_lMAUIQ"/>
           </ownedAttribute>
@@ -7938,7 +7977,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q5NZgMBFEe24KKI_lMAUIQ"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_TJeL8MBFEe24KKI_lMAUIQ" name="jButton" visibility="private" aggregation="shared" association="_TJdk4MBFEe24KKI_lMAUIQ">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TJezAcBFEe24KKI_lMAUIQ" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TJezAMBFEe24KKI_lMAUIQ"/>
           </ownedAttribute>
@@ -8062,7 +8101,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_HyuW8MAVEe2_v4pgpWl_eg" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_Hyu-AMAVEe2_v4pgpWl_eg" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_HyvlEMAVEe2_v4pgpWl_eg" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HytI0cAVEe2_v4pgpWl_eg" x="635" y="2286"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_ru9fUMAWEe2_v4pgpWl_eg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -8079,7 +8118,7 @@
                 </children>
               </children>
               <children xmi:type="notation:ListCompartment" xmi:id="_ru_UgsAWEe2_v4pgpWl_eg" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ru9fUcAWEe2_v4pgpWl_eg" x="6023" y="951"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_6t6x8MAWEe2_v4pgpWl_eg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -8092,7 +8131,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_6t8AEsAWEe2_v4pgpWl_eg" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_6t8nIMAWEe2_v4pgpWl_eg" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_6t9OMMAWEe2_v4pgpWl_eg" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6t6x8cAWEe2_v4pgpWl_eg" x="9779" y="1270"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_-YsMAMBBEe24KKI_lMAUIQ" element="_1DLOIMBBEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -8424,17 +8463,17 @@
             <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
           </generalization>
           <ownedAttribute xmi:id="_J9F8wMAVEe2_v4pgpWl_eg" name="jButton2" visibility="private" aggregation="shared" association="_J8_2IMAVEe2_v4pgpWl_eg">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J9KOMMAVEe2_v4pgpWl_eg" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J9JnIMAVEe2_v4pgpWl_eg" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_sZr3UMAWEe2_v4pgpWl_eg" name="jPanel2" visibility="private" aggregation="shared" association="_sZrQQMAWEe2_v4pgpWl_eg">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sZr3UsAWEe2_v4pgpWl_eg" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sZr3UcAWEe2_v4pgpWl_eg" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_8BX94MAWEe2_v4pgpWl_eg" name="jLabel2" visibility="private" aggregation="shared" association="_8BWvwMAWEe2_v4pgpWl_eg">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8BX94sAWEe2_v4pgpWl_eg" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8BX94cAWEe2_v4pgpWl_eg" value="1"/>
           </ownedAttribute>
@@ -8443,7 +8482,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EVgd0cBEEe24KKI_lMAUIQ"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_qJjrsMMfEe2IOv6llN7KxA" name="jButton" visibility="private" association="_qJRX0MMfEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qJmvAMMfEe2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qJmH8MMfEe2IOv6llN7KxA"/>
           </ownedAttribute>
@@ -8510,12 +8549,12 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_yvQqwMBBEe24KKI_lMAUIQ" name="VTurno" clientDependency="_1DU_IMBBEe24KKI_lMAUIQ _VnlUgMBCEe24KKI_lMAUIQ _hl9LAMBCEe24KKI_lMAUIQ _QuZikMBDEe24KKI_lMAUIQ _QUnUIMBEEe24KKI_lMAUIQ _LZSQMMHREe2REPegaZB6NQ">
         <ownedAttribute xmi:id="__nbakMBCEe24KKI_lMAUIQ" name="jPanel" visibility="private" aggregation="shared" association="__nazgMBCEe24KKI_lMAUIQ">
-          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__nbaksBCEe24KKI_lMAUIQ" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__nbakcBCEe24KKI_lMAUIQ"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_FjABIMBDEe24KKI_lMAUIQ" name="jButton" visibility="private" aggregation="shared" association="_Fi_aEMBDEe24KKI_lMAUIQ">
-          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FjAoMcBDEe24KKI_lMAUIQ" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FjAoMMBDEe24KKI_lMAUIQ"/>
         </ownedAttribute>
@@ -8525,7 +8564,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IT-7AcBDEe24KKI_lMAUIQ"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_NiGlscBDEe24KKI_lMAUIQ" name="jLabel" visibility="private" aggregation="shared" association="_NiGlsMBDEe24KKI_lMAUIQ">
-          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NiHz0cBDEe24KKI_lMAUIQ" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NiHz0MBDEe24KKI_lMAUIQ"/>
         </ownedAttribute>
@@ -8898,7 +8937,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l8ppAMBDEe24KKI_lMAUIQ"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_nqXvEMBDEe24KKI_lMAUIQ" name="jPanel" visibility="private" aggregation="shared" association="_nqXIAMBDEe24KKI_lMAUIQ">
-        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nqYWIcBDEe24KKI_lMAUIQ" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nqYWIMBDEe24KKI_lMAUIQ"/>
       </ownedAttribute>
@@ -8908,12 +8947,12 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ySTXEMBDEe24KKI_lMAUIQ" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_2rUlwMBDEe24KKI_lMAUIQ" name="jButton" visibility="private" aggregation="shared" association="_2rTXoMBDEe24KKI_lMAUIQ">
-        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2rUlwsBDEe24KKI_lMAUIQ" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2rUlwcBDEe24KKI_lMAUIQ"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_5JXVgMBDEe24KKI_lMAUIQ" name="jLabel" visibility="private" aggregation="shared" association="_5JWHYMBDEe24KKI_lMAUIQ">
-        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5JX8kcBDEe24KKI_lMAUIQ" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5JX8kMBDEe24KKI_lMAUIQ"/>
       </ownedAttribute>
@@ -8955,7 +8994,7 @@
       <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_OKf7sMTTEe2wE7mArxvCWA" client="_gjwRsMBDEe24KKI_lMAUIQ">
-      <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+      <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_ZGW6YMTVEe2wE7mArxvCWA" client="_gjwRsMBDEe24KKI_lMAUIQ">
       <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
@@ -8963,6 +9002,22 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_P8cqAMcOEe2IOv6llN7KxA" name="Material">
       <eAnnotations xmi:id="_P9J0oMcOEe2IOv6llN7KxA" source="uml2.diagrams" references="_P9MQ4McOEe2IOv6llN7KxA">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_P9MQ4McOEe2IOv6llN7KxA" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_dZih4M4MEe21NLmfkBHePA" type="Class" name="VMaterialDC">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_lPrXsM4MEe21NLmfkBHePA" element="_lPhmsM4MEe21NLmfkBHePA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lPrXss4MEe21NLmfkBHePA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_lPrXs84MEe21NLmfkBHePA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_lPrXtM4MEe21NLmfkBHePA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_lPrXtc4MEe21NLmfkBHePA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_lPrXts4MEe21NLmfkBHePA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_lPrXt84MEe21NLmfkBHePA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_lPrXuM4MEe21NLmfkBHePA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_lPrXuc4MEe21NLmfkBHePA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_lP0hoM4MEe21NLmfkBHePA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lPrXsc4MEe21NLmfkBHePA" x="8636" y="2921"/>
+          </children>
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
@@ -8995,7 +9050,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_LUhAIMcPEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_LUiOQMcPEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_LUi1UMcPEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LUej4ccPEe2IOv6llN7KxA" x="7608" y="951"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_y0-3sMclEe2IOv6llN7KxA" element="_lEmrUMcVEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9034,7 +9089,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_xhI_UMcnEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_xhI_UccnEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_xhI_UscnEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xhDfwccnEe2IOv6llN7KxA" x="1902" y="7608"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_VSbpsMcuEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9047,7 +9102,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_VSwZ0McuEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_VSyPAMcuEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_VS0EMMcuEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VSbpsccuEe2IOv6llN7KxA" x="1268" y="5706"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_hAl58McuEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9060,7 +9115,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_hAsnoMcuEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_hAt1wMcuEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_hAuc0McuEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hAmhAMcuEe2IOv6llN7KxA" x="951" y="3170"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_sACDAMcuEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9073,7 +9128,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_sAFtYMcuEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_sAGUcMcuEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_sAG7gMcuEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sACDAccuEe2IOv6llN7KxA" x="3487" y="951"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_5HK4YMcuEe2IOv6llN7KxA" element="_BAjT0L_6Ee21Fahp4wJOGg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9100,7 +9155,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_Cwh_UMcvEe2IOv6llN7KxA" type="AttributeCompartment" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_CwkbkMcvEe2IOv6llN7KxA" type="OperationCompartment" collapsed="true"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_CwmQwMcvEe2IOv6llN7KxA" visible="false" type="SignalCompartment"/>
-              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CwbRoccvEe2IOv6llN7KxA" x="12680" y="5706"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_PiQv8McwEe2IOv6llN7KxA" element="_1DLOIMBBEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9462,7 +9517,7 @@
         </eAnnotations>
         <packagedElement xmi:type="uml:Class" xmi:id="_-tnxEMcOEe2IOv6llN7KxA" name="VAltaMaterial" clientDependency="_vbCgYMclEe2IOv6llN7KxA _y1SZsMclEe2IOv6llN7KxA _5HyjcMcuEe2IOv6llN7KxA _Cw9dIMcvEe2IOv6llN7KxA _RNimAMcwEe2IOv6llN7KxA _U1hZUMcwEe2IOv6llN7KxA">
           <ownedAttribute xmi:id="_LXpzsMcPEe2IOv6llN7KxA" name="jFrame" visibility="private" association="_LXolkMcPEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LXrB0McPEe2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LXqawMcPEe2IOv6llN7KxA" value="1"/>
           </ownedAttribute>
@@ -9471,24 +9526,57 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__T6dkMclEe2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_xizMMMcnEe2IOv6llN7KxA" name="jPanel" visibility="private" aggregation="shared" association="_xixXAMcnEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xizzQccnEe2IOv6llN7KxA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xizzQMcnEe2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_VWEMgMcuEe2IOv6llN7KxA" name="jButton" visibility="private" aggregation="shared" association="_VWBJMMcuEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VWJFAMcuEe2IOv6llN7KxA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VWH24McuEe2IOv6llN7KxA" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_hD5FkMcuEe2IOv6llN7KxA" name="jDialog" visibility="private" association="_hD33cMcuEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hD5soccuEe2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hD5soMcuEe2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_sC1fYMcuEe2IOv6llN7KxA" name="jLabel" visibility="private" association="_sCycEMcuEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sC3UkMcuEe2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sC2tgMcuEe2IOv6llN7KxA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Y32uIM4GEe21NLmfkBHePA" name="idMaterial" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_eAmJkM4GEe21NLmfkBHePA" name="labelIDMaterial" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Bn0gsM4HEe21NLmfkBHePA" name="botonAltaMaterial" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_I4QocM4HEe21NLmfkBHePA" name="labelNombre" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_TS40QM4HEe21NLmfkBHePA" name="textFieldNombre" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_XWpkoM4HEe21NLmfkBHePA" name="labelAlmacen" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_cVL7MM4HEe21NLmfkBHePA" name="textFieldAlmacen" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_g6nOMM4HEe21NLmfkBHePA" name="labelExistencias" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_kFkHQM4HEe21NLmfkBHePA" name="textFieldExistencias" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ogbwEM4HEe21NLmfkBHePA" name="botonAceptar" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qbV9kM4HEe21NLmfkBHePA" name="botonCancelar" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_LXolkMcPEe2IOv6llN7KxA" memberEnd="_LXpzsMcPEe2IOv6llN7KxA _LXsP8McPEe2IOv6llN7KxA">
@@ -9533,7 +9621,7 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_5HyjcMcuEe2IOv6llN7KxA" supplier="_BAjT0L_6Ee21Fahp4wJOGg" client="_-tnxEMcOEe2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_Cw9dIMcvEe2IOv6llN7KxA" client="_-tnxEMcOEe2IOv6llN7KxA">
-          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_RNimAMcwEe2IOv6llN7KxA" supplier="_1DLOIMBBEe24KKI_lMAUIQ" client="_-tnxEMcOEe2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Realization" xmi:id="_U1hZUMcwEe2IOv6llN7KxA" supplier="_hlyL4MBCEe24KKI_lMAUIQ" client="_-tnxEMcOEe2IOv6llN7KxA"/>
@@ -9607,7 +9695,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="__TCS0McwEe2IOv6llN7KxA" type="AttributeCompartment" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="__TEIAMcwEe2IOv6llN7KxA" type="OperationCompartment" collapsed="true"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="__TF9MMcwEe2IOv6llN7KxA" visible="false" type="SignalCompartment"/>
-              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="__S9aUccwEe2IOv6llN7KxA" x="15216" y="7608"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_BhE3sMcxEe2IOv6llN7KxA" element="_hlyL4MBCEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
@@ -9633,7 +9721,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_X7i5oMcxEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_X7jgsMcxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_X7kHwMcxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X7eBIccxEe2IOv6llN7KxA" x="16167" y="3487"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_p0db8McxEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9646,7 +9734,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_p0db9scxEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_p0db98cxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_p0db-McxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p0db-ccxEe2IOv6llN7KxA" x="12997" y="1585"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_p0eqEMcxEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9663,7 +9751,7 @@
                 </children>
               </children>
               <children xmi:type="notation:ListCompartment" xmi:id="_p0eqGccxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p0eqGscxEe2IOv6llN7KxA" x="5747" y="1265"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_p0fRIMcxEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9676,7 +9764,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_p0fRJscxEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_p0fRJ8cxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_p0fRKMcxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p0fRKccxEe2IOv6llN7KxA" x="8559" y="951"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_p0f4MMcxEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -9689,7 +9777,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_p0f4NscxEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_p0f4N8cxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_p0f4OMcxEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p0f4OccxEe2IOv6llN7KxA" x="2772" y="1584"/>
             </children>
             <element xsi:nil="true"/>
@@ -9985,13 +10073,13 @@
         </eAnnotations>
         <packagedElement xmi:type="uml:Class" xmi:id="_ww3p4McwEe2IOv6llN7KxA" name="VBajaMaterial" clientDependency="_0rlzAMcwEe2IOv6llN7KxA _39g2wMcwEe2IOv6llN7KxA _7MX_cMcwEe2IOv6llN7KxA __TdJkMcwEe2IOv6llN7KxA _EFEecMcxEe2IOv6llN7KxA">
           <generalization xmi:id="_HAwzgMcxEe2IOv6llN7KxA">
-            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
           </generalization>
           <generalization xmi:id="_K33A4McxEe2IOv6llN7KxA">
-            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
           </generalization>
           <ownedAttribute xmi:id="_X8eGsMcxEe2IOv6llN7KxA" name="jButton" visibility="private" association="_X8bqcMcxEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X8i_MMcxEe2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X8iYIMcxEe2IOv6llN7KxA"/>
           </ownedAttribute>
@@ -10001,31 +10089,46 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lyL5UMcxEe2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_rUu74McxEe2IOv6llN7KxA" name="jDialog2" visibility="private" association="_rUttwMcxEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rUvi8ccxEe2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rUvi8McxEe2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_w5XpIMcxEe2IOv6llN7KxA" name="jFrame" visibility="private" association="_w5Vz8McxEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w5Y3QMcxEe2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w5YQMMcxEe2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_zqgUAMcxEe2IOv6llN7KxA" name="jLabel" visibility="private" aggregation="shared" association="_zqd3wMcxEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zqg7EMcxEe2IOv6llN7KxA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zqgUAccxEe2IOv6llN7KxA" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_0wedkMcxEe2IOv6llN7KxA" name="jPanel" visibility="private" aggregation="shared" association="_0wcBUMcxEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0wkkMMcxEe2IOv6llN7KxA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0wfrsMcxEe2IOv6llN7KxA" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_5kkmgM4HEe21NLmfkBHePA" name="labelIDMaterial" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_5zKcIM4HEe21NLmfkBHePA" name="textFieldIDMaterial" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ENu9kM4IEe21NLmfkBHePA" name="botonBajaMaterial" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_IpL1MM4IEe21NLmfkBHePA" name="botonCancelar" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_JmmfsM4IEe21NLmfkBHePA" name="botonAceptar" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_0rlzAMcwEe2IOv6llN7KxA" supplier="_BAjT0L_6Ee21Fahp4wJOGg" client="_ww3p4McwEe2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_39g2wMcwEe2IOv6llN7KxA" supplier="_1DLOIMBBEe24KKI_lMAUIQ" client="_ww3p4McwEe2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_7MX_cMcwEe2IOv6llN7KxA" supplier="_lEmrUMcVEe2IOv6llN7KxA" client="_ww3p4McwEe2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="__TdJkMcwEe2IOv6llN7KxA" client="_ww3p4McwEe2IOv6llN7KxA">
-          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Realization" xmi:id="_EFEecMcxEe2IOv6llN7KxA" supplier="_hlyL4MBCEe24KKI_lMAUIQ" client="_ww3p4McwEe2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Association" xmi:id="_X8bqcMcxEe2IOv6llN7KxA" memberEnd="_X8eGsMcxEe2IOv6llN7KxA _X8nQoMcxEe2IOv6llN7KxA">
@@ -10147,7 +10250,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_uLL5sMczEe2IOv6llN7KxA" type="AttributeCompartment" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_uLOV8MczEe2IOv6llN7KxA" type="OperationCompartment" collapsed="true"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_uLPkEMczEe2IOv6llN7KxA" visible="false" type="SignalCompartment"/>
-              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLFMAcczEe2IOv6llN7KxA" x="5706" y="1585"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_xToRUMczEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -10160,7 +10263,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_xToRVsczEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_xToRV8czEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_xToRWMczEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xToRWcczEe2IOv6llN7KxA" x="1446" y="3605"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_xTo4YMczEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -10173,7 +10276,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_xTo4ZsczEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_xTo4Z8czEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_xTo4aMczEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xTo4acczEe2IOv6llN7KxA" x="2208" y="10082"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_xTo4asczEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -10186,7 +10289,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_xTo4cMczEe2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_xTo4ccczEe2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_xTo4csczEe2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xTo4c8czEe2IOv6llN7KxA" x="1319" y="6780"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_39jLoMczEe2IOv6llN7KxA" element="_gjwRsMBDEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -10423,12 +10526,12 @@
         </eAnnotations>
         <packagedElement xmi:type="uml:Class" xmi:id="_PTWp4MczEe2IOv6llN7KxA" name="VModificarMaterial" clientDependency="_TN2wkMczEe2IOv6llN7KxA _VCDSEMczEe2IOv6llN7KxA _m_ERQMczEe2IOv6llN7KxA _rWdvUMczEe2IOv6llN7KxA _uLnXgMczEe2IOv6llN7KxA">
           <ownedAttribute xmi:id="_0O2sUMczEe2IOv6llN7KxA" name="jButton" visibility="private" aggregation="shared" association="_0O03IMczEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0O36ccczEe2IOv6llN7KxA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0O36cMczEe2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_1swNsMczEe2IOv6llN7KxA" name="jPanel" visibility="private" aggregation="shared" association="_1suYgMczEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1syC4MczEe2IOv6llN7KxA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1sxb0MczEe2IOv6llN7KxA"/>
           </ownedAttribute>
@@ -10437,9 +10540,36 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_397mIMczEe2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_5yod8MczEe2IOv6llN7KxA" name="jFrame" visibility="private" association="_5ynP0MczEe2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5ypsEMczEe2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5ypFAMczEe2IOv6llN7KxA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_AWCd0M4JEe21NLmfkBHePA" name="botonModificarMaterial" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_B1QN0M4JEe21NLmfkBHePA" name="labelNombre" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Dpr_4M4JEe21NLmfkBHePA" name="textFieldNombre" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_E0hbUM4JEe21NLmfkBHePA" name="labelAlmacen" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Ho3yQM4JEe21NLmfkBHePA" name="textFieldAlmacen" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_JTSFoM4JEe21NLmfkBHePA" name="labelExistencias" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_LdeFQM4JEe21NLmfkBHePA" name="textFieldExistencias" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_N3VfoM4JEe21NLmfkBHePA" name="botonAceptar" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_PIe-cM4JEe21NLmfkBHePA" name="botonCancelar" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_TN2wkMczEe2IOv6llN7KxA" supplier="_BAjT0L_6Ee21Fahp4wJOGg" client="_PTWp4MczEe2IOv6llN7KxA"/>
@@ -10447,7 +10577,7 @@
         <packagedElement xmi:type="uml:Dependency" xmi:id="_m_ERQMczEe2IOv6llN7KxA" supplier="_1DLOIMBBEe24KKI_lMAUIQ" client="_PTWp4MczEe2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Realization" xmi:id="_rWdvUMczEe2IOv6llN7KxA" supplier="_hlyL4MBCEe24KKI_lMAUIQ" client="_PTWp4MczEe2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_uLnXgMczEe2IOv6llN7KxA" client="_PTWp4MczEe2IOv6llN7KxA">
-          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_0O03IMczEe2IOv6llN7KxA" memberEnd="_0O2sUMczEe2IOv6llN7KxA _0O8L4MczEe2IOv6llN7KxA">
           <ownedEnd xmi:id="_0O8L4MczEe2IOv6llN7KxA" name="" visibility="private" type="_PTWp4MczEe2IOv6llN7KxA" association="_0O03IMczEe2IOv6llN7KxA">
@@ -10543,7 +10673,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_OBSTIMc1Ee2IOv6llN7KxA" type="AttributeCompartment" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_OBS6MMc1Ee2IOv6llN7KxA" type="OperationCompartment" collapsed="true"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_OBUIUMc1Ee2IOv6llN7KxA" visible="false" type="SignalCompartment"/>
-              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OBOowcc1Ee2IOv6llN7KxA" x="13314" y="4755"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_PwYSMMc1Ee2IOv6llN7KxA" element="_hlyL4MBCEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
@@ -10582,7 +10712,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_ePPvhsc1Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ePPvh8c1Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ePPviMc1Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ePPvicc1Ee2IOv6llN7KxA" x="6526" y="938"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_ePQWkMc1Ee2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -10595,7 +10725,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_ePQWlsc1Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ePQWl8c1Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ePQWmMc1Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ePQWmcc1Ee2IOv6llN7KxA" x="3804" y="7608"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_ePQWmsc1Ee2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -10621,7 +10751,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_ePQ9psc1Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ePQ9p8c1Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ePQ9qMc1Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ePQ9qcc1Ee2IOv6llN7KxA" x="1446" y="2335"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_ePRksMc1Ee2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -10634,7 +10764,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_ePRktsc1Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ePRkt8c1Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ePRkuMc1Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ePRkucc1Ee2IOv6llN7KxA" x="1319" y="6653"/>
             </children>
             <element xsi:nil="true"/>
@@ -10974,12 +11104,12 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_axHbwMc1Ee2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_hnUekMc1Ee2IOv6llN7KxA" name="jPanel" visibility="private" aggregation="shared" association="_hnTQcMc1Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hnYI8cc1Ee2IOv6llN7KxA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hnYI8Mc1Ee2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_isbsgMc1Ee2IOv6llN7KxA" name="jButton" visibility="private" aggregation="shared" association="_isaeYMc1Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iscTkcc1Ee2IOv6llN7KxA" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iscTkMc1Ee2IOv6llN7KxA"/>
           </ownedAttribute>
@@ -10989,21 +11119,24 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kIezwMc1Ee2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_l9ueIMc1Ee2IOv6llN7KxA" name="jFrame" visibility="private" association="_l9tQAMc1Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l9vsQMc1Ee2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l9vFMMc1Ee2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_om4RsMc1Ee2IOv6llN7KxA" name="jLabel" visibility="private" association="_om3qoMc1Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_om44wcc1Ee2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_om44wMc1Ee2IOv6llN7KxA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_G5eOQM4MEe21NLmfkBHePA" name="botonMostrarMaterial" visibility="private">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_zb5v8Mc0Ee2IOv6llN7KxA" supplier="_BAjT0L_6Ee21Fahp4wJOGg" client="_KxS-gMc0Ee2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_GO3fsMc1Ee2IOv6llN7KxA" supplier="_lEmrUMcVEe2IOv6llN7KxA" client="_KxS-gMc0Ee2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_MSEYQMc1Ee2IOv6llN7KxA" supplier="_1DLOIMBBEe24KKI_lMAUIQ" client="_KxS-gMc0Ee2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_OBo4cMc1Ee2IOv6llN7KxA" client="_KxS-gMc0Ee2IOv6llN7KxA">
-          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_RQHmoMc1Ee2IOv6llN7KxA" supplier="_KxS-gMc0Ee2IOv6llN7KxA" client="_KxS-gMc0Ee2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Realization" xmi:id="_Sxn1oMc1Ee2IOv6llN7KxA" supplier="_hlyL4MBCEe24KKI_lMAUIQ" client="_KxS-gMc0Ee2IOv6llN7KxA"/>
@@ -11087,7 +11220,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_rh6C8cc2Ee2IOv6llN7KxA" type="AttributeCompartment" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_rh6qAMc2Ee2IOv6llN7KxA" type="OperationCompartment" collapsed="true"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_rh6qAcc2Ee2IOv6llN7KxA" visible="false" type="SignalCompartment"/>
-              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rhwR8cc2Ee2IOv6llN7KxA" x="12046" y="4755"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_y4PXUMc2Ee2IOv6llN7KxA" element="_BAjT0L_6Ee21Fahp4wJOGg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -11126,7 +11259,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_9lVMJsc2Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_9lVMJ8c2Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_9lVMKMc2Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9lVMKcc2Ee2IOv6llN7KxA" x="1394" y="6724"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_9lXoYMc2Ee2IOv6llN7KxA" element="_gjwRsMBDEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -11152,7 +11285,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_9lXoccc2Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_9lXocsc2Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_9lXoc8c2Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9lXodMc2Ee2IOv6llN7KxA" x="1902" y="4438"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_9lYPcMc2Ee2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -11165,7 +11298,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_9lYPdsc2Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_9lYPd8c2Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_9lYPeMc2Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9lYPecc2Ee2IOv6llN7KxA" x="3487" y="2536"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_ABXwwMc3Ee2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -11178,7 +11311,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_ABXwxsc3Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ABXwx8c3Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_ABXwyMc3Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ABXwycc3Ee2IOv6llN7KxA" x="6974" y="1585"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_eCVqAMc3Ee2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
@@ -11191,7 +11324,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_eCYtUMc3Ee2IOv6llN7KxA" visible="false" type="ANNOTATION_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_eCZ7cMc3Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_eCbJkMc3Ee2IOv6llN7KxA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
-              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTable%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTable%5Bproject%5Eid=heladMod%5D$uml.Class"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eCVqAcc3Ee2IOv6llN7KxA" x="1268" y="9827"/>
             </children>
             <element xsi:nil="true"/>
@@ -11523,34 +11656,34 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FwLGoMc3Ee2IOv6llN7KxA" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_GJNRsMc3Ee2IOv6llN7KxA" name="jButton" visibility="private" association="_GJMqoMc3Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GJPt8Mc3Ee2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GJPG4Mc3Ee2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_Ha_psMc3Ee2IOv6llN7KxA" name="jDialog" visibility="private" association="_Ha-bkMc3Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JDialog%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HbBe4Mc3Ee2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HbAQwMc3Ee2IOv6llN7KxA" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_HviWUMc3Ee2IOv6llN7KxA" name="jLabel" visibility="private" association="_HvhvQMc3Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hvi9Ycc3Ee2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Hvi9YMc3Ee2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_IDZGcMc3Ee2IOv6llN7KxA" name="jFrame" visibility="private" association="_IDYfYMc3Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IDZtgcc3Ee2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IDZtgMc3Ee2IOv6llN7KxA"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_ePyQIMc3Ee2IOv6llN7KxA" name="jTable" visibility="private" association="_ePxCAMc3Ee2IOv6llN7KxA">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTable%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTable%5Bproject%5Eid=heladMod%5D$uml.Class"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eP2hkcc3Ee2IOv6llN7KxA" value="1"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eP2hkMc3Ee2IOv6llN7KxA" value="1"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:Realization" xmi:id="_o5oZIMc2Ee2IOv6llN7KxA" supplier="_hlyL4MBCEe24KKI_lMAUIQ" client="_e_JtAMc2Ee2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_riEbAMc2Ee2IOv6llN7KxA" client="_e_JtAMc2Ee2IOv6llN7KxA">
-          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_y4cLoMc2Ee2IOv6llN7KxA" supplier="_BAjT0L_6Ee21Fahp4wJOGg" client="_e_JtAMc2Ee2IOv6llN7KxA"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_0nlOAMc2Ee2IOv6llN7KxA" supplier="_1DLOIMBBEe24KKI_lMAUIQ" client="_e_JtAMc2Ee2IOv6llN7KxA"/>
@@ -11608,12 +11741,392 @@
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_7jkyccrpEe2I6flyQo11kA" type="OperationCompartment"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_7joc0MrpEe2I6flyQo11kA" visible="false" type="SignalCompartment"/>
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_7jpD4MrpEe2I6flyQo11kA" visible="false" type="StructureCompartment"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7jddscrpEe2I6flyQo11kA" x="6858" y="1312"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7jddscrpEe2I6flyQo11kA" x="37084"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_9euTocuxEe2I6flyQo11kA" element="_9euToMuxEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_9euTo8uxEe2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_9euTpMuxEe2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_9euTpcuxEe2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_9euTpsuxEe2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_9euTp8uxEe2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_9euTqMuxEe2I6flyQo11kA" visible="false" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_9euTqcuxEe2I6flyQo11kA" visible="false" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_9euTqsuxEe2I6flyQo11kA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9euTq8uxEe2I6flyQo11kA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9euTosuxEe2I6flyQo11kA" x="69469" y="15367"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_BswaUMuyEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+              <children xmi:type="notation:DecorationNode" xmi:id="_BswaUsuyEe2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_BswaU8uyEe2I6flyQo11kA" width="530" height="530"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_BswaVMuyEe2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_BswaVcuyEe2I6flyQo11kA" type="Kind"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_BswaVsuyEe2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_BswaV8uyEe2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_BswaWMuyEe2I6flyQo11kA" visible="false" type="AttributeCompartment" collapsed="true"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_BswaWcuyEe2I6flyQo11kA" visible="false" type="OperationCompartment" collapsed="true"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_BswaWsuyEe2I6flyQo11kA" visible="false" type="SignalCompartment"/>
+              <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BswaUcuyEe2I6flyQo11kA" x="64897" y="15240"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_1g9WYMuyEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_1g9WYsuyEe2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_1g9WY8uyEe2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1g9WZMuyEe2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1hBAwMuyEe2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_1hBAwcuyEe2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_1hBAwsuyEe2I6flyQo11kA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_1hBAw8uyEe2I6flyQo11kA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_1hBAxMuyEe2I6flyQo11kA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.ArrayList%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1g9WYcuyEe2I6flyQo11kA" x="57150" y="15113"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_F8q64MuzEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_F8q64suzEe2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_F8q648uzEe2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_F8q65MuzEe2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_F8q65cuzEe2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_F8q65suzEe2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_F8q658uzEe2I6flyQo11kA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_F8q66MuzEe2I6flyQo11kA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_F8q66cuzEe2I6flyQo11kA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F8q64cuzEe2I6flyQo11kA" x="53340" y="15240"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_RZ5zMMuzEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_RZ5zMsuzEe2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_RZ5zM8uzEe2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RZ5zNMuzEe2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RZ5zNcuzEe2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RZ5zNsuzEe2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_RZ5zN8uzEe2I6flyQo11kA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_RZ5zOMuzEe2I6flyQo11kA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_RZ5zOcuzEe2I6flyQo11kA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RZ5zMcuzEe2I6flyQo11kA" x="49530" y="15240"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_YpowUMuzEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_YpowUsuzEe2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_YpowU8uzEe2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YpowVMuzEe2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YpowVcuzEe2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_YpowVsuzEe2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_YpowV8uzEe2I6flyQo11kA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_YprMkMuzEe2I6flyQo11kA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_YprMkcuzEe2I6flyQo11kA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YpowUcuzEe2I6flyQo11kA" x="45720" y="15240"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_98oFsMuzEe2I6flyQo11kA" element="_BAjT0L_6Ee21Fahp4wJOGg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_98oFssuzEe2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_98oFs8uzEe2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_98oFtMuzEe2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_98oFtcuzEe2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_98oFtsuzEe2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_98oFt8uzEe2I6flyQo11kA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_98oFuMuzEe2I6flyQo11kA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_98oFucuzEe2I6flyQo11kA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_98oFusuzEe2I6flyQo11kA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_98oFscuzEe2I6flyQo11kA" x="40513" y="14605"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_LXRs8Mu0Ee2I6flyQo11kA" element="_lEmrUMcVEe2IOv6llN7KxA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_LXRs8su0Ee2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_LXRs88u0Ee2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_LXRs9Mu0Ee2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_LXRs9cu0Ee2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_LXRs9su0Ee2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_LXRs98u0Ee2I6flyQo11kA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_LXRs-Mu0Ee2I6flyQo11kA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_LXRs-cu0Ee2I6flyQo11kA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LXRs-su0Ee2I6flyQo11kA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LXRs8cu0Ee2I6flyQo11kA" x="35687" y="12192"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_Tjti4Mu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Tjti4su0Ee2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_Tjti48u0Ee2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Tjti5Mu0Ee2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Tjti5cu0Ee2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Tjti5su0Ee2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_Tjti58u0Ee2I6flyQo11kA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_Tjti6Mu0Ee2I6flyQo11kA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_Tjti6cu0Ee2I6flyQo11kA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTable%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tjti4cu0Ee2I6flyQo11kA" x="27432" y="6223"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_bl5QoMu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bl-JIMu0Ee2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_bl-JIcu0Ee2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_bl-JIsu0Ee2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_bl-JI8u0Ee2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_bl-JJMu0Ee2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_bl-JJcu0Ee2I6flyQo11kA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_bl-JJsu0Ee2I6flyQo11kA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_bl-JJ8u0Ee2I6flyQo11kA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JScrollPane%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bl5Qocu0Ee2I6flyQo11kA" x="20955" y="12446"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_jXouoMu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jXouosu0Ee2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_jXouo8u0Ee2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jXoupMu0Ee2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jXoupcu0Ee2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_jXoupsu0Ee2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_jXoup8u0Ee2I6flyQo11kA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_jXouqMu0Ee2I6flyQo11kA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_jXouqcu0Ee2I6flyQo11kA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jXouocu0Ee2I6flyQo11kA" x="14478" y="12446"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qmLY8Mu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qmOcQMu0Ee2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_qmOcQcu0Ee2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qmOcQsu0Ee2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qmOcQ8u0Ee2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qmOcRMu0Ee2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_qmOcRcu0Ee2I6flyQo11kA" visible="false" type="ANNOTATION_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_qmOcRsu0Ee2I6flyQo11kA" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_qmOcR8u0Ee2I6flyQo11kA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+              <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qmLY8cu0Ee2I6flyQo11kA" x="4826" y="13208"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_8mIXYMu0Ee2I6flyQo11kA" element="_gjwRsMBDEe24KKI_lMAUIQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_8mIXYsu0Ee2I6flyQo11kA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_8mIXY8u0Ee2I6flyQo11kA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_8mIXZMu0Ee2I6flyQo11kA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_8mIXZcu0Ee2I6flyQo11kA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_8mIXZsu0Ee2I6flyQo11kA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_8mIXZ8u0Ee2I6flyQo11kA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_8mIXaMu0Ee2I6flyQo11kA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_8mIXacu0Ee2I6flyQo11kA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_8mIXasu0Ee2I6flyQo11kA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8mIXYcu0Ee2I6flyQo11kA" y="15113"/>
             </children>
             <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_9e3dkcuxEe2I6flyQo11kA" element="_9e3dkMuxEe2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_9euTocuxEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_9e3dk8uxEe2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_9fAngMuxEe2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_9fAngcuxEe2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9e3dlMuxEe2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9e3dksuxEe2I6flyQo11kA" points="[58, 82, -29267, -12681]$[58, 589, -29267, -12174]$[29356, 589, 31, -12174]$[29356, 12763, 31, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AevmgM4MEe21NLmfkBHePA" id="(0.9287150311481136,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Aevmgc4MEe21NLmfkBHePA" id="(0.5,2.9770694002387178E-15)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Bs6LUcuyEe2I6flyQo11kA" element="_Bs6LUMuyEe2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_BswaUMuyEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Bs6LU8uyEe2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Bs6LVcuyEe2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Bs6LVsuyEe2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bs6LVMuyEe2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bs6LUsuyEe2I6flyQo11kA" points="[54, 82, -25550, -12502]$[54, 1012, -25550, -11572]$[25635, 1012, 31, -11572]$[25635, 12584, 31, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae1tIM4MEe21NLmfkBHePA" id="(0.8572863297624592,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae1tIc4MEe21NLmfkBHePA" id="(0.5,1.8752468077792335E-15)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_1ig1kcuyEe2I6flyQo11kA" element="_1ig1kMuyEe2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_1g9WYMuyEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_1ig1k8uyEe2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_1ig1lcuyEe2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_1ig1lsuyEe2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1ig1lMuyEe2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1ig1ksuyEe2I6flyQo11kA" points="[50, 82, -19714, -12672]$[50, 1435, -19714, -11319]$[19796, 1435, 32, -11319]$[19796, 12116, 32, -638]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae1tIs4MEe21NLmfkBHePA" id="(0.7858576283768048,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae1tI84MEe21NLmfkBHePA" id="(0.5088235294117659,0.0)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_F9kSwcuzEe2I6flyQo11kA" element="_F9kSwMuzEe2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_F8q64MuzEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_F9kSw8uzEe2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_F9kSxcuzEe2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_F9kSxsuzEe2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F9kSxMuzEe2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_F9kSwsuzEe2I6flyQo11kA" points="[45, 82, -14250, -12502]$[45, 1858, -14250, -10726]$[14326, 1858, 31, -10726]$[14326, 12584, 31, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae1tJM4MEe21NLmfkBHePA" id="(0.7144289269911521,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae1tJc4MEe21NLmfkBHePA" id="(0.5,1.8752468077792335E-15)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_RaV4EcuzEe2I6flyQo11kA" element="_RaV4EMuzEe2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_RZ5zMMuzEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_RaV4E8uzEe2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_RaV4FcuzEe2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_RaV4FsuzEe2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RaV4FMuzEe2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RaV4EsuzEe2I6flyQo11kA" points="[41, 82, -10765, -12502]$[41, 2281, -10765, -10303]$[10837, 2281, 31, -10303]$[10837, 12584, 31, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae1tJs4MEe21NLmfkBHePA" id="(0.6430002256054961,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae1tJ84MEe21NLmfkBHePA" id="(0.5000000000000034,1.8752468077792335E-15)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Yp-ukcuzEe2I6flyQo11kA" element="_Yp-ukMuzEe2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_YpowUMuzEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Yp-uk8uzEe2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Yp-ulcuzEe2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Yp-ulsuzEe2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yp-ulMuzEe2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Yp-uksuzEe2I6flyQo11kA" points="[36, 82, -7281, -12502]$[36, 2704, -7281, -9880]$[7348, 2704, 31, -9880]$[7348, 12584, 31, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wcM4MEe21NLmfkBHePA" id="(0.5715715242198416,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wcc4MEe21NLmfkBHePA" id="(0.5,1.8752468077792335E-15)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_981hEMuzEe2I6flyQo11kA" element="_98x2sMuzEe2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_98oFsMuzEe2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_981hEsuzEe2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_981hFMuzEe2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_981hFcuzEe2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_981hE8uzEe2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_981hEcuzEe2I6flyQo11kA" points="[31, 82, -3077, -11940]$[31, 3127, -3077, -8895]$[3140, 3127, 32, -8895]$[3140, 12022, 32, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wcs4MEe21NLmfkBHePA" id="(0.5001437325337681,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wc84MEe21NLmfkBHePA" id="(0.5,8.690823714982591E-16)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_LXbd8Mu0Ee2I6flyQo11kA" element="_LXRs-8u0Ee2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_LXRs8Mu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_LXbd8su0Ee2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_LXbd9Mu0Ee2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_LXbd9cu0Ee2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LXbd88u0Ee2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LXbd8cu0Ee2I6flyQo11kA" points="[27, 82, 1676, -9427]$[27, 2704, 1676, -6805]$[-1618, 2704, 31, -6805]$[-1618, 9509, 31, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wdM4MEe21NLmfkBHePA" id="(0.42871503114811366,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wdc4MEe21NLmfkBHePA" id="(0.5,0.0)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Tps2IMu0Ee2I6flyQo11kA" element="_TpjsMMu0Ee2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_Tjti4Mu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Tps2Isu0Ee2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Tps2JMu0Ee2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Tps2Jcu0Ee2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tps2I8u0Ee2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Tps2Icu0Ee2I6flyQo11kA" points="[23, 82, 7901, -3468]$[23, 2281, 7901, -1269]$[-7846, 2281, 32, -1269]$[-7846, 3550, 32, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wds4MEe21NLmfkBHePA" id="(0.3572863297624592,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wd84MEe21NLmfkBHePA" id="(0.5000000000000006,9.554519400913208E-17)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_bmuXEcu0Ee2I6flyQo11kA" element="_bmuXEMu0Ee2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_bl5QoMu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bmuXE8u0Ee2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_bmuXFcu0Ee2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_bmuXFsu0Ee2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bmuXFMu0Ee2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bmuXEsu0Ee2I6flyQo11kA" points="[18, 82, 14917, -9683]$[18, 1858, 14917, -7907]$[-14868, 1858, 31, -7907]$[-14868, 9765, 31, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4weM4MEe21NLmfkBHePA" id="(0.28585762837680484,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wec4MEe21NLmfkBHePA" id="(0.5,2.753124570222274E-16)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_jYXuccu0Ee2I6flyQo11kA" element="_jYXucMu0Ee2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_jXouoMu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_jYXuc8u0Ee2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_jYXudcu0Ee2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_jYXudsu0Ee2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jYXudMu0Ee2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jYXucsu0Ee2I6flyQo11kA" points="[13, 82, 21119, -9683]$[13, 1435, 21119, -8330]$[-21074, 1435, 32, -8330]$[-21074, 9765, 32, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wes4MEe21NLmfkBHePA" id="(0.21442892699115043,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4we84MEe21NLmfkBHePA" id="(0.5,2.753124570222274E-16)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_qm-DIcu0Ee2I6flyQo11kA" element="_qm-DIMu0Ee2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_qmLY8Mu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qm-DI8u0Ee2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_qm-DJcu0Ee2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_qm-DJsu0Ee2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qm-DJMu0Ee2I6flyQo11kA" y="-149"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qm-DIsu0Ee2I6flyQo11kA" points="[9, 82, 28888, -10485]$[9, 1012, 28888, -9555]$[-28847, 1012, 32, -9555]$[-28847, 10567, 32, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wfM4MEe21NLmfkBHePA" id="(0.14300022560549605,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wfc4MEe21NLmfkBHePA" id="(0.5,0.0)"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_8uOjcMu0Ee2I6flyQo11kA" element="_8mIXa8u0Ee2I6flyQo11kA" source="_7jddsMrpEe2I6flyQo11kA" target="_8mIXYMu0Ee2I6flyQo11kA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOjcsu0Ee2I6flyQo11kA" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8uOjdMu0Ee2I6flyQo11kA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8uOjdcu0Ee2I6flyQo11kA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8uOjc8u0Ee2I6flyQo11kA" y="-149"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOjdsu0Ee2I6flyQo11kA" type="ToMultiplicityLabel" element="_8mQ6QMu0Ee2I6flyQo11kA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8uOjeMu0Ee2I6flyQo11kA" type="ToMultiplicity"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8uOjd8u0Ee2I6flyQo11kA" y="317"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOjecu0Ee2I6flyQo11kA" type="ToRoleLabel" element="_8mQ6QMu0Ee2I6flyQo11kA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8uOje8u0Ee2I6flyQo11kA" type="ToRole"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8uOjesu0Ee2I6flyQo11kA" y="-318"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOjfMu0Ee2I6flyQo11kA" type="FromMultiplicityLabel" element="_8mIXbMu0Ee2I6flyQo11kA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8uOjfsu0Ee2I6flyQo11kA" type="FromMultiplicity"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8uOjfcu0Ee2I6flyQo11kA" y="317"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOjf8u0Ee2I6flyQo11kA" type="FromRoleLabel" element="_8mIXbMu0Ee2I6flyQo11kA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8uOjgcu0Ee2I6flyQo11kA" type="FromRole"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8uOjgMu0Ee2I6flyQo11kA" y="-318"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOjgsu0Ee2I6flyQo11kA" type="ToQualifierLabel" element="_8mQ6QMu0Ee2I6flyQo11kA">
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_8uOjhMu0Ee2I6flyQo11kA" type="QualifierCompartment"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8uOjg8u0Ee2I6flyQo11kA" y="-149"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOjhcu0Ee2I6flyQo11kA" type="FromQualifierLabel" element="_8mIXbMu0Ee2I6flyQo11kA">
+                <children xmi:type="notation:SemanticListCompartment" xmi:id="_8uOjh8u0Ee2I6flyQo11kA" type="QualifierCompartment"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8uOjhsu0Ee2I6flyQo11kA" y="-149"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOjiMu0Ee2I6flyQo11kA" type="ToConstraintLabel" element="_8mQ6QMu0Ee2I6flyQo11kA">
+                <children xmi:type="notation:ListCompartment" xmi:id="_8uOjisu0Ee2I6flyQo11kA" type="ToConstraintCompartment"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8uOjicu0Ee2I6flyQo11kA" y="846"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_8uOji8u0Ee2I6flyQo11kA" type="FromConstraintLabel" element="_8mIXbMu0Ee2I6flyQo11kA">
+                <children xmi:type="notation:ListCompartment" xmi:id="_8uOjjcu0Ee2I6flyQo11kA" type="FromConstraintCompartment"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_8uOjjMu0Ee2I6flyQo11kA" y="846"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8uOjccu0Ee2I6flyQo11kA" points="[5, 82, 35810, -12428]$[5, 589, 35810, -11921]$[-35773, 589, 32, -11921]$[-35773, 12510, 32, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wfs4MEe21NLmfkBHePA" id="(0.07157152421984164,0.9701173959445041)"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ae4wf84MEe21NLmfkBHePA" id="(0.5,1.6284596271672842E-15)"/>
+            </edges>
           </contents>
         </eAnnotations>
-        <packagedElement xmi:type="uml:Class" xmi:id="_7jR3gMrpEe2I6flyQo11kA" name="VMostrarMateriales"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7jR3gMrpEe2I6flyQo11kA" name="VMostrarMateriales" clientDependency="_9e3dkMuxEe2I6flyQo11kA _Bs6LUMuyEe2I6flyQo11kA _1ig1kMuyEe2I6flyQo11kA _RaV4EMuzEe2I6flyQo11kA _Yp-ukMuzEe2I6flyQo11kA _98x2sMuzEe2I6flyQo11kA _LXRs-8u0Ee2I6flyQo11kA _TpjsMMu0Ee2I6flyQo11kA _bmuXEMu0Ee2I6flyQo11kA _jYXucMu0Ee2I6flyQo11kA _qm-DIMu0Ee2I6flyQo11kA">
+          <generalization xmi:id="_F9kSwMuzEe2I6flyQo11kA">
+            <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JFrame%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+          </generalization>
+          <ownedAttribute xmi:id="_JAwB0MuxEe2I6flyQo11kA" name="botonListar" visibility="private"/>
+          <ownedAttribute xmi:id="_LCwV0MuxEe2I6flyQo11kA" name="modeloTablaListarMateriales" visibility="private"/>
+          <ownedAttribute xmi:id="_QzPtwMuxEe2I6flyQo11kA" name="tablaListarMateriales" visibility="private"/>
+          <ownedAttribute xmi:id="_UvlngMuxEe2I6flyQo11kA" name="scrollListarProductos" visibility="private"/>
+          <ownedAttribute xmi:id="_XdhNYMuxEe2I6flyQo11kA" name="botonCerrar" visibility="private"/>
+          <ownedAttribute xmi:id="_8mIXbMu0Ee2I6flyQo11kA" name="formComponent" visibility="private" type="_gjwRsMBDEe24KKI_lMAUIQ" aggregation="shared" association="_8mIXa8u0Ee2I6flyQo11kA">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8mIXbsu0Ee2I6flyQo11kA" value="1"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8mIXbcu0Ee2I6flyQo11kA"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_iN3xkMuxEe2I6flyQo11kA" name="initVista"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9euToMuxEe2I6flyQo11kA" name="Evento"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_9e3dkMuxEe2I6flyQo11kA" supplier="_9euToMuxEe2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_Bs6LUMuyEe2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA">
+          <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_1ig1kMuyEe2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA">
+          <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.ArrayList%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_RaV4EMuzEe2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA">
+          <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_Yp-ukMuzEe2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA">
+          <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_98x2sMuzEe2I6flyQo11kA" supplier="_BAjT0L_6Ee21Fahp4wJOGg" client="_7jR3gMrpEe2I6flyQo11kA"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_LXRs-8u0Ee2I6flyQo11kA" supplier="_lEmrUMcVEe2IOv6llN7KxA" client="_7jR3gMrpEe2I6flyQo11kA"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_TpjsMMu0Ee2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA">
+          <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTable%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_bmuXEMu0Ee2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA">
+          <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JScrollPane%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_jYXucMu0Ee2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA">
+          <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JLabel%5Bproject%5Eid=heladMod%5D$uml.Class"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_qm-DIMu0Ee2I6flyQo11kA" client="_7jR3gMrpEe2I6flyQo11kA">
+          <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_8mIXa8u0Ee2I6flyQo11kA" memberEnd="_8mIXbMu0Ee2I6flyQo11kA _8mQ6QMu0Ee2I6flyQo11kA">
+          <ownedEnd xmi:id="_8mQ6QMu0Ee2I6flyQo11kA" name="" visibility="private" type="_7jR3gMrpEe2I6flyQo11kA" association="_8mIXa8u0Ee2I6flyQo11kA">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8mQ6Qsu0Ee2I6flyQo11kA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8mQ6Qcu0Ee2I6flyQo11kA" value="1"/>
+          </ownedEnd>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_CECscMiSEe2NIOO71Mma0A" name="VMaterial">
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_IaIEwMiSEe2NIOO71Mma0A" name="AltaMaterial">
@@ -11799,7 +12312,7 @@
         </ownedBehavior>
         <ownedAttribute xmi:id="_rS6MEciTEe2NIOO71Mma0A" name=""/>
         <ownedAttribute xmi:id="_nzfpcciUEe2NIOO71Mma0A" name="actionListener">
-          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
+          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=heladMod%5D$uml.Interface"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_sImBcciUEe2NIOO71Mma0A" name="jTextField">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JTextField%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
@@ -11810,6 +12323,38 @@
       <packagedElement xmi:type="uml:CreationEvent" xmi:id="_aeyx08iXEe2NIOO71Mma0A" name="CreationEvent1"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_87oZcciXEe2NIOO71Mma0A" name="SendOperationEvent1" operation="_87oZcMiXEe2NIOO71Mma0A"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_87oZcsiXEe2NIOO71Mma0A" name="ReceiveOperationEvent1" operation="_87oZcMiXEe2NIOO71Mma0A"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lPhmsM4MEe21NLmfkBHePA" name="VMaterial">
+        <ownedAttribute xmi:id="_oF1FcM4MEe21NLmfkBHePA" name="botonAltaMaterial" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_qQyhIM4MEe21NLmfkBHePA" name="botonBajaMaterial" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_r_h64M4MEe21NLmfkBHePA" name="botonModificarMaterial" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_vHxeMM4MEe21NLmfkBHePA" name="botonMostrarMaterial" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_xuheAM4MEe21NLmfkBHePA" name="botonMostrarMateriales" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JButton%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="__O2PcM4MEe21NLmfkBHePA" name="panelAltaMaterial" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_A6qRAM4NEe21NLmfkBHePA" name="panelBajaMaterial" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_CGmfsM4NEe21NLmfkBHePA" name="panelModificarMaterial" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_DfQ7wM4NEe21NLmfkBHePA" name="panelMostrarMaterial" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_FOk9QM4NEe21NLmfkBHePA" name="panelMostrarMateriales" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=javax.swing.JPanel%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <profileApplication xmi:id="_ZU5TZb_4Ee21Fahp4wJOGg">
