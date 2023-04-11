@@ -3185,22 +3185,22 @@
         <packagedElement xmi:type="uml:Interface" xmi:id="_JYflAMfjEe20Y461DRiqow" name="DAOPersonal" clientDependency="_c0IB0MfkEe20Y461DRiqow">
           <ownedOperation xmi:id="_MvDRIMfjEe20Y461DRiqow" name="CrearPersonal">
             <ownedParameter xmi:id="_kRluYMfjEe20Y461DRiqow" name="Parameter1" direction="return">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MODEL_GestorDeCampamentos%5D$uml.Class"/>
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
             </ownedParameter>
             <ownedParameter xmi:id="_-8VSsMfjEe20Y461DRiqow" name="tPersonal" type="_6YJUoMfJEe20Y461DRiqow"/>
           </ownedOperation>
           <ownedOperation xmi:id="_NyPMcMfjEe20Y461DRiqow" name="EliminarPersonal">
             <ownedParameter xmi:id="_tvS-8MfjEe20Y461DRiqow" name="Parameter1" direction="return">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MODEL_GestorDeCampamentos%5D$uml.Class"/>
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
             </ownedParameter>
             <ownedParameter xmi:id="_C4zIQMfkEe20Y461DRiqow" name="IdPersonal">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MODEL_GestorDeCampamentos%5D$uml.Class"/>
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_N2Z6wMfjEe20Y461DRiqow" name="MostrarUno">
             <ownedParameter xmi:id="_vztGsMfjEe20Y461DRiqow" name="Parameter1" type="_6YJUoMfJEe20Y461DRiqow" direction="return"/>
             <ownedParameter xmi:id="_IH31MMfkEe20Y461DRiqow" name="IdPersonal">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MODEL_GestorDeCampamentos%5D$uml.Class"/>
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_N6lQIMfjEe20Y461DRiqow" name="MostrarTodos">
@@ -3214,13 +3214,23 @@
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7gZ-YcfjEe20Y461DRiqow" value="*"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7gZ-YMfjEe20Y461DRiqow"/>
             </ownedParameter>
-            <ownedParameter xmi:id="_NM_U4MfkEe20Y461DRiqow" name="IdTurno" type="_6Nl54MHIEe2REPegaZB6NQ"/>
+            <ownedParameter xmi:id="_NM_U4MfkEe20Y461DRiqow" name="IdTurno">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_W0LHAMfjEe20Y461DRiqow" name="ModificarPersonal">
             <ownedParameter xmi:id="_9KPqAMfjEe20Y461DRiqow" name="Parameter1" direction="return">
-              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=MODEL_GestorDeCampamentos%5D$uml.Class"/>
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
             </ownedParameter>
-            <ownedParameter xmi:id="_SVsUEMfkEe20Y461DRiqow" name="IdPersonal" type="_6YJUoMfJEe20Y461DRiqow"/>
+            <ownedParameter xmi:id="_SVsUEMfkEe20Y461DRiqow" name="tPersonal" type="_6YJUoMfJEe20Y461DRiqow"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_QcePQNhkEe2Zwbe8JZMtCA" name="activar">
+            <ownedParameter xmi:id="_RnyL0NhkEe2Zwbe8JZMtCA" name="Parameter1" direction="return">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_SsTj4NhkEe2Zwbe8JZMtCA" name="idPersonal">
+              <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=ModelCampamento%5D$uml.Class"/>
+            </ownedParameter>
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_c0IB0MfkEe20Y461DRiqow" supplier="_6YJUoMfJEe20Y461DRiqow" client="_JYflAMfjEe20Y461DRiqow"/>
