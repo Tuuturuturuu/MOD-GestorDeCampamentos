@@ -3194,7 +3194,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kzysM8iWEe2kerzm4heUBA" y="-317"/>
                   </children>
                   <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kzysMciWEe2kerzm4heUBA" points="[0, 0, -211, 0]$[211, 0, 0, 0]"/>
-                  <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kz5Z4MiWEe2kerzm4heUBA" id="1133:847"/>
+                  <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kz5Z4MiWEe2kerzm4heUBA" id="1133:396"/>
                   <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kz5Z4ciWEe2kerzm4heUBA" id="1186:0"/>
                 </edges>
                 <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kz9EQsiWEe2kerzm4heUBA" element="_kzvo4MiWEe2kerzm4heUBA" source="_j4bQIMiWEe2kerzm4heUBA" target="_Uj0p0cg3Ee20Y461DRiqow" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -5511,9 +5511,7 @@
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QdvoUL__Ee2BnswjwVuF6A"/>
             </ownedEnd>
           </packagedElement>
-          <packagedElement xmi:type="uml:Dependency" xmi:id="_mNryUcjNEe2eVqLG52unfg" client="_IgAnoL_9Ee2BnswjwVuF6A">
-            <supplier xmi:type="uml:Class" href="platform:/resource/ModelCampamento/Modelo_Diseño.emx#_6YJUoMfJEe20Y461DRiqow?Modelo_Diseño/Negocio/Personal/TPersonal?"/>
-          </packagedElement>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_mNryUcjNEe2eVqLG52unfg" supplier="_6YJUoMfJEe20Y461DRiqow" client="_IgAnoL_9Ee2BnswjwVuF6A"/>
           <packagedElement xmi:type="uml:Dependency" xmi:id="_fD0ogM4DEe2Rjfd0TxapwA" client="_IgAnoL_9Ee2BnswjwVuF6A">
             <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.awt.event.ActionListener%5Bproject%5Eid=ModelCampamento%5D$uml.Interface"/>
           </packagedElement>
@@ -8650,9 +8648,7 @@
         <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_XROCwMZLEe2GVNry6dMlBw" name="SendOperationEvent1" operation="_H7EO4L_6Ee21Fahp4wJOGg"/>
         <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_XROCwcZLEe2GVNry6dMlBw" name="ReceiveOperationEvent1" operation="_H7EO4L_6Ee21Fahp4wJOGg"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_HYxdcMg6Ee20Y461DRiqow" supplier="_6YJUoMfJEe20Y461DRiqow" client="_BAjT0L_6Ee21Fahp4wJOGg"/>
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_qE57gMjNEe2eVqLG52unfg" client="_BAjT0L_6Ee21Fahp4wJOGg">
-          <supplier xmi:type="uml:Class" href="platform:/resource/ModelCampamento/Modelo_Diseño.emx#_6YJUoMfJEe20Y461DRiqow?Modelo_Diseño/Negocio/Personal/TPersonal?"/>
-        </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_qE57gMjNEe2eVqLG52unfg" supplier="_6YJUoMfJEe20Y461DRiqow" client="_BAjT0L_6Ee21Fahp4wJOGg"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_x2uckMjOEe2eVqLG52unfg" supplier="_1DLOIMBBEe24KKI_lMAUIQ" client="_BAjT0L_6Ee21Fahp4wJOGg"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_01i-IMjOEe2eVqLG52unfg" supplier="_6YJUoMfJEe20Y461DRiqow" client="_BAjT0L_6Ee21Fahp4wJOGg"/>
       </packagedElement>
