@@ -11163,7 +11163,7 @@
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_TrDaBelNEe2itPyRL9-mrg" type="Name"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TrDaA-lNEe2itPyRL9-mrg" y="-186"/>
               </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TrDaAelNEe2itPyRL9-mrg" points="[-39, -24, 288, 104]$[-223, -142, 104, -14]"/>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TrDaAelNEe2itPyRL9-mrg" points="[-1584, -633, 7084, 2770]$[-1584, -1369, 7084, 2034]$[-5918, -1369, 2750, 2034]"/>
             </edges>
           </contents>
         </eAnnotations>
