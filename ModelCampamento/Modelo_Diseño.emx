@@ -11157,9 +11157,17 @@
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jbOOgelKEe2-yfc3-Gl71Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
             </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_TrDaAOlNEe2itPyRL9-mrg" element="_TrAWsOlNEe2itPyRL9-mrg" source="_rkvHwMcmEe2wUNznx59mVQ" target="_jbLyQOlKEe2-yfc3-Gl71Q" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_TrDaAulNEe2itPyRL9-mrg" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_TrDaBOlNEe2itPyRL9-mrg" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_TrDaBelNEe2itPyRL9-mrg" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TrDaA-lNEe2itPyRL9-mrg" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TrDaAelNEe2itPyRL9-mrg" points="[-39, -24, 288, 104]$[-223, -142, 104, -14]"/>
+            </edges>
           </contents>
         </eAnnotations>
-        <packagedElement xmi:type="uml:Class" xmi:id="_rknL8McmEe2wUNznx59mVQ" name="SAActividadImp" clientDependency="_tutE8McmEe2wUNznx59mVQ _dmm4oMcpEe2wUNznx59mVQ _vVb4kMcuEe2wUNznx59mVQ _cNQfEMc0Ee2wUNznx59mVQ _V1ywEMmMEe2Wqtb-xvLQXA _ECJhsMpwEe2lDvbe_4-1Rg _am0BcMpwEe2lDvbe_4-1Rg _YZaRkMp3Ee2lDvbe_4-1Rg _Bl7YsM8XEe2V4Lb9GdYg5Q"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rknL8McmEe2wUNznx59mVQ" name="SAActividadImp" clientDependency="_tutE8McmEe2wUNznx59mVQ _dmm4oMcpEe2wUNznx59mVQ _vVb4kMcuEe2wUNznx59mVQ _cNQfEMc0Ee2wUNznx59mVQ _V1ywEMmMEe2Wqtb-xvLQXA _ECJhsMpwEe2lDvbe_4-1Rg _am0BcMpwEe2lDvbe_4-1Rg _YZaRkMp3Ee2lDvbe_4-1Rg _Bl7YsM8XEe2V4Lb9GdYg5Q _TrAWsOlNEe2itPyRL9-mrg"/>
         <packagedElement xmi:type="uml:Interface" xmi:id="_tuiF0McmEe2wUNznx59mVQ" name="SAActividad" clientDependency="_AbXmIMcsEe2wUNznx59mVQ _-oDeQMp0Ee2lDvbe_4-1Rg">
           <ownedOperation xmi:id="_wDUy8McmEe2wUNznx59mVQ" name="crearActividad">
             <ownedParameter xmi:id="_pBansMcsEe2wUNznx59mVQ" name="Parameter1" type="_NSj30McoEe2wUNznx59mVQ" direction="return"/>
@@ -12396,6 +12404,7 @@
         <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_tv9ykOk7Ee2-yfc3-Gl71Q" name="ReceiveOperationEvent17" operation="_K2i2cMcqEe2wUNznx59mVQ"/>
         <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_x4SK4OjPEe22gfGEWNkPsw" name="SendOperationEvent22" operation="_MwO54Mp1Ee2lDvbe_4-1Rg"/>
         <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_x4SK4ejPEe22gfGEWNkPsw" name="ReceiveOperationEvent22" operation="_MwO54Mp1Ee2lDvbe_4-1Rg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_TrAWsOlNEe2itPyRL9-mrg" supplier="_JYflAMfjEe20Y461DRiqow" client="_rknL8McmEe2wUNznx59mVQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rR_g8MpSEe2F-4wKXyC1kA" name="Factura">
         <eAnnotations xmi:id="_rSB9MMpSEe2F-4wKXyC1kA" source="uml2.diagrams">
@@ -33847,7 +33856,7 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_I2C3YM4GEe2Rjfd0TxapwA" name="PrimitiveTypes">
       <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_I2C3Yc4GEe2Rjfd0TxapwA" name="jtex"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_iCGm0OlHEe2-yfc3-Gl71Q" name="DiagramaSecuencia">
+    <packagedElement xmi:type="uml:Package" xmi:id="_iCGm0OlHEe2-yfc3-Gl71Q" name="DiagramaDespliegue">
       <eAnnotations xmi:id="_iCH08OlHEe2-yfc3-Gl71Q" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_nUOnwOlHEe2-yfc3-Gl71Q" type="Deployment" name="DiagramaDeDespliegue">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_ttGOUOlHEe2-yfc3-Gl71Q" element="_ts_goOlHEe2-yfc3-Gl71Q" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Image">
